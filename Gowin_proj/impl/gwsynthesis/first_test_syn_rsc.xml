@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="2" Lut="10">
+    <SubModule name="cpu" Register="1" Lut="1">
+        <SubModule name="IFU_u" Register="97" Alu="31" Lut="266"/>
+        <SubModule name="IDU_u" Register="90" Alu="82" Lut="138"/>
+        <SubModule name="EXU_u" Register="72" Alu="95" Lut="615"/>
+        <SubModule name="regfile_u" Register="1024" Alu="10" Lut="1215"/>
+        <SubModule name="uart_u" Register="19" Alu="9" Lut="23"/>
+        <SubModule name="WBU_u" Lut="86"/>
+    </SubModule>
+    <SubModule name="iRAM" Bsram="1"/>
+    <SubModule name="dRAM" Bsram="1"/>
+</Module>

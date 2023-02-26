@@ -1,0 +1,11 @@
+-d H:\gowin\test0\riscv\impl\gwsynthesis\first_test.vg
+-p GW1NSR-4C-QFN48P-6
+-pn GW1NSR-LV4CQN48PC6/I5
+-cst H:\gowin\test0\riscv\src\first_test.cst
+-cfg H:\gowin\test0\riscv\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-route_maxfan 23

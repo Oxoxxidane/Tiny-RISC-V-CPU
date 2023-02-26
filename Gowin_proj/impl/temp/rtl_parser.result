@@ -1,0 +1,94 @@
+[
+ {
+  "InstFile" : "H:/gowin/test0/riscv/src/rom.v",
+  "InstLine" : 1,
+  "InstName" : "rom",
+  "ModuleFile" : "H:/gowin/test0/riscv/src/rom.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "rom"
+ },
+ {
+  "InstFile" : "H:/gowin/test0/riscv/src/top.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "H:/gowin/test0/riscv/src/top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "H:/gowin/test0/riscv/src/top.v",
+    "InstLine" : 31,
+    "InstName" : "cpu",
+    "ModuleFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "cpu_top",
+    "SubInsts" : [
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 31,
+      "InstName" : "IFU_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/IFU.v",
+      "ModuleLine" : 15,
+      "ModuleName" : "IFU"
+     },
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 72,
+      "InstName" : "IDU_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/IDU.v",
+      "ModuleLine" : 14,
+      "ModuleName" : "IDU"
+     },
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 107,
+      "InstName" : "EXU_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/EXU.v",
+      "ModuleLine" : 15,
+      "ModuleName" : "EXU"
+     },
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 162,
+      "InstName" : "regfile_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/regfile.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "regfile"
+     },
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 181,
+      "InstName" : "uart_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/uart.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "uart"
+     },
+     {
+      "InstFile" : "H:/gowin/test0/riscv/src/cpu_top.v",
+      "InstLine" : 188,
+      "InstName" : "WBU_u",
+      "ModuleFile" : "H:/gowin/test0/riscv/src/WBU.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "WBU"
+     }
+    ]
+   },
+   {
+    "InstFile" : "H:/gowin/test0/riscv/src/top.v",
+    "InstLine" : 60,
+    "InstName" : "iRAM",
+    "ModuleFile" : "H:/gowin/test0/riscv/src/gowin_prom/gowin_prom.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_pROM"
+   },
+   {
+    "InstFile" : "H:/gowin/test0/riscv/src/top.v",
+    "InstLine" : 76,
+    "InstName" : "dRAM",
+    "ModuleFile" : "H:/gowin/test0/riscv/src/gowin_sp/gowin_sp.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_SP"
+   }
+  ]
+ }
+]

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
+    <FileList>
+        <File path="H:\gowin\test0\riscv\src\EXU.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\IDU.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\IFU.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\WBU.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\cpu_top.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\defines.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\gowin_prom\gowin_prom.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\gowin_sp\gowin_sp.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\regfile.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\rom.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\top.v" type="verilog"/>
+        <File path="H:\gowin\test0\riscv\src\uart.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="H:\gowin\test0\riscv\impl\gwsynthesis\first_test.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

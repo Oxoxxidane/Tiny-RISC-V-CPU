@@ -1,0 +1,60 @@
+{
+ "Files" : [
+  {
+   "Path" : "H:/gowin/test0/riscv/src/EXU.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/IDU.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/IFU.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/WBU.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/cpu_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/gowin_prom/gowin_prom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/gowin_sp/gowin_sp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/regfile.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/rom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "H:/gowin/test0/riscv/src/uart.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "H:/gowin/test0/riscv/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
