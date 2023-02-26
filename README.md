@@ -8,7 +8,8 @@
 > 目前仅支持RV32I中的部分指令，中断和异常还没有写完。指令流水线共分为四级，分别是取指、译码、执行和写回，采用数据旁路的方法解决相关性问题。
 
 <div align=center>
-<img src="https://raw.githubusercontent.com/Oxoxxidane/Tiny-RISC-V-CPU/main/%E6%9E%B6%E6%9E%84%E5%9B%BE.png"  style="width:600px; vertical-align:middle;" />
+  <img src="https://raw.githubusercontent.com/Oxoxxidane/Tiny-RISC-V-CPU/main/%E6%9E%B6%E6%9E%84%E5%9B%BE.png"  style="width:600px; vertical-align:middle;" />
+  <span>一个暂时只实现了一半的架构图</span>
 </div>
 
 ---
