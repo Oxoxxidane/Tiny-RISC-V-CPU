@@ -9,7 +9,7 @@
 
 <div align=center>
   <img src="https://raw.githubusercontent.com/Oxoxxidane/Tiny-RISC-V-CPU/main/%E6%9E%B6%E6%9E%84%E5%9B%BE.png"  style="width:600px; vertical-align:middle;" />
-  <span><br/>一个暂时只实现了一半的架构图</span>
+  <span><br/>图1.1 一个暂时只实现了一半的架构图</span>
 </div>
 
 ---
