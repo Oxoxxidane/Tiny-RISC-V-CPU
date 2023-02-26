@@ -26,8 +26,8 @@
 | uart.v | 测试用的临时串口 |
 | rom.v modelsim | 仿真阶段使用的存储器，未例化 |
 
-包含存储器的顶层文件是top.v
-测试用的机器码是test.mi
-gowin_prom.v和gowin_sp.v是用高云IP工具生成的ROM和RAM，分别作为程序存储器和数据存储器
+包含存储器的顶层文件是top.v  
+测试用的机器码是test.mi  
+gowin_prom.v和gowin_sp.v是用高云IP工具生成的ROM和RAM，分别作为程序存储器和数据存储器  
 
 所有文件统一用GBK编码，如果打开的编码格式不对可能会导致中文注释乱码
