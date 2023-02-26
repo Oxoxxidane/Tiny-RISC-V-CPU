@@ -9,6 +9,8 @@
 
 ![一个暂时还没有完全实现的架构图](https://raw.githubusercontent.com/Oxoxxidane/Tiny-RISC-V-CPU/main/%E6%9E%B6%E6%9E%84%E5%9B%BE.png)
 
+^[一个暂时还没有完全实现的架构图]
+
 ---
 
 ### 2.文件结构
