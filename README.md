@@ -1,4 +1,4 @@
-## Tiny Four-stage Pipeline RISV-V CPU
+# Tiny Four-stage Pipeline RISV-V CPU
 
 一个由FPGA课程设计衍生出来的项目，纯粹是做着玩的。现在还算是一个粗糙的半成品，有时间的话大概会持续更新（先鸽为敬
 
