@@ -1,11 +1,11 @@
 # Tiny Four-stage Pipeline RISC-V CPU
 
-一个由FPGA课程设计衍生出来的项目，纯粹是做着玩的。现在还算是一个粗糙的半成品，有时间的话大概会持续更新（先鸽为敬
+一个由FPGA课程设计衍生出来的项目，纯粹是做着玩的。现在还算是一个粗糙的半成品，有时间的话大概会持续更新
 
 ----
 
 ### 1.架构简介
-> 目前仅支持RV32I中的部分指令，中断和异常还没有写完。指令流水线共分为四级，分别是取指、译码、执行和写回，采用数据旁路的方法解决相关性问题。
+> 目前仅支持RV32I指令集。指令流水线共分为四级，分别是取指、译码、执行和写回，采用数据旁路的方法解决相关性问题。
 
 <div align=center>
   <img src="https://raw.githubusercontent.com/Oxoxxidane/Tiny-RISC-V-CPU/main/%E6%9E%B6%E6%9E%84%E5%9B%BE.png"  style="width:600px; vertical-align:middle;" />
